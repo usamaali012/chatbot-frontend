@@ -13,7 +13,6 @@ export function ChatApp() {
   
   // Handle selecting a chat history item
   const handleSelectHistory = (id: string) => {
-    // In a real app, this would load the selected chat
     console.log(`Selected chat history item: ${id}`);
     setSidePanelOpen(false);
   };
